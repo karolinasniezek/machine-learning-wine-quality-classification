@@ -15,7 +15,7 @@ sns.histplot(wine["quality"], bins=7, color="red", kde=False)
 plt.title('Quality wine')
 plt.xlabel("Quality")
 plt.ylabel("Quantity of wine")
-plt.savefig("../figures/wine-quality-histpgram.png")
+plt.savefig("../figures/wine-quality-histogram.png")
 
 plt.figure(figsize=(12,8))
 sns.heatmap(wine.corr(), annot=True, cmap="coolwarm", fmt=".2f")
